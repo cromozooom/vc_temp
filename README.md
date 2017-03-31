@@ -1,4 +1,2 @@
 ##Sample
-
-[link home](https://cdn.rawgit.com/cromozooom/vilacotroceni/8e922868/build/index.html)
-[link under construction](https://cdn.rawgit.com/cromozooom/vilacotroceni/8e922868/build/underConstruction.html)
+[link under construction](https://rawgit.com/cromozooom/vc_temp/master/build/underConstruction.html)
