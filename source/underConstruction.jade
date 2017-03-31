@@ -1,0 +1,25 @@
+extends ./templates/includes/_layout.jade
+
+block title
+	title Home | SITENAME
+block header
+block content
+	.container-fluid.px-0.ucp
+		.row.no-gutters
+			.col-sm-6.ucp__logo.text-center.height_xs_half.height_sm_full
+				img(src="content/images/logo_.png")
+			.col-sm-6.height_xs_full
+				.col.ucp__info.height_xs_half
+					ul.ucp__info__contact.list-unstyled.lead
+						li.phone
+							a(href="") 0735858306
+						li.email
+							a(href="") booking@vilacotroceni.ro
+						li.adress
+							p Str. Dr. Dimitrie Brandza 14
+						li.gmap
+							h4
+								a(href="https://www.google.co.uk/maps/place/Strada+Dimitrie+Br%C3%A2ndz%C4%83+14,+Bucure%C8%99ti,+Romania/@44.4378718,26.0643843,17z/data=!3m1!4b1!4m5!3m4!1s0x40b201de013918b9:0x4ac339b1319f134a!8m2!3d44.437868!4d26.066573?hl=ro") Open google map
+				.col.ucp__map.text-center.height_xs_half.px-0
+					iframe( src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.77039706817!2d26.064384315748622!3d44.437871809353524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201de013918b9%3A0x4ac339b1319f134a!2sStrada+Dimitrie+Br%C3%A2ndz%C4%83+14%2C+Bucure%C8%99ti%2C+Romania!5e0!3m2!1sen!2suk!4v1491000373753" width="100%" height="100%" frameborder="0" style="border:0")
+	//- include templates/elem/rezerveBox--welcome

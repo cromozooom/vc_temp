@@ -1,0 +1,113 @@
+@import includes/variables
+
+// Bootstrap 4
+// Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+// Copyright 2011-2017 The Bootstrap Authors
+// Copyright 2011-2017 Twitter, Inc.
+// Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+// Core variables and mixins
+@import bootstrap-sass/variables
+@import bootstrap-sass/mixins
+//@import bootstrap-sass/custom
+
+// Reset and dependencies
+@import bootstrap-sass/normalize
+//@import bootstrap-sass/print
+
+// Core CSS
+@import bootstrap-sass/reboot
+@import bootstrap-sass/type
+//@import bootstrap-sass/images
+//@import bootstrap-sass/code
+@import bootstrap-sass/grid
+//@import bootstrap-sass/tables
+//@import bootstrap-sass/forms
+//@import bootstrap-sass/buttons
+
+// Components
+//@import bootstrap-sass/transitions
+//@import bootstrap-sass/dropdown
+//@import bootstrap-sass/button-group
+//@import bootstrap-sass/input-group
+//@import bootstrap-sass/custom-forms
+//@import bootstrap-sass/nav
+//@import bootstrap-sass/navbar
+//@import bootstrap-sass/card
+//@import bootstrap-sass/breadcrumb
+//@import bootstrap-sass/pagination
+//@import bootstrap-sass/badge
+//@import bootstrap-sass/jumbotron
+//@import bootstrap-sass/alert
+//@import bootstrap-sass/progress
+//@import bootstrap-sass/media
+//@import bootstrap-sass/list-group
+//@import bootstrap-sass/responsive-embed
+//@import bootstrap-sass/close
+
+// Components w/ JavaScript
+//@import bootstrap-sass/modal
+//@import bootstrap-sass/tooltip
+//@import bootstrap-sass/popover
+//@import bootstrap-sass/carousel
+
+// Utility classes
+@import bootstrap-sass/utilities
+
+
+
+// Core
+@import includes/mixins
+
+// Layout
+//@import layout/common
+//@import layout/header
+//@import layout/footer
+//@import layout/main
+
+//@import includes/top_nav
+//@import includes/bxslider
+//@import includes/bxslider--custom
+//@import includes/rezerveBox
+//@import includes/mapAndPlaces
+//@import includes/card_ap
+
+// Components
+@include media-breakpoint-up(xs)
+  .height_xs
+    &_full
+      height: 100vh
+    &_half
+      height: 50vh
+@include media-breakpoint-up(sm)
+    .height_sm
+      &_full
+        height: 100vh
+      &_half
+        height: 50vh
+//@include media-breakpoint-up(md) { ... }
+//@include media-breakpoint-up(lg) { ... }
+//@include media-breakpoint-up(xl) { ... }
+
+.ucp
+  &__logo
+    background: url("content/images/vilaCotroceni.jpg")
+    position: relative
+    img
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+
+  &__info
+    position: relative
+    &__contact
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+    .phone, .email, .adress
+      a
+        color: black
+    //.gmap
+  //&__map

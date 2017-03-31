@@ -1,0 +1,21 @@
+extends ./templates/includes/_layout.jade
+
+block title
+	title Home | SITENAME
+block content
+	include templates/elem/bxSlider
+	include templates/elem/rezerveBox
+	include templates/elem/mapAndPlaces
+	.container
+		.row.py-3
+			.col.text-center.headSection
+				h2 Our appartments
+				p vezi detalii despre apratentele noastre
+	.container
+		.row
+			.col-12.col-md-4.ap-01
+				include templates/elem/card_ap
+			.col-12.col-md-4.ap-02
+				include templates/elem/card_ap
+			.col-12.col-md-4.ap-03
+				include templates/elem/card_ap

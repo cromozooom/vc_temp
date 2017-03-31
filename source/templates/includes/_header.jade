@@ -1,0 +1,35 @@
+section.top__nav
+	nav.navbar.navbar-toggleable-md.navbar-light
+		button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+			span.navbar-toggler-icon
+		a.navbar-brand.logo(href='#')
+			img.img-fluid(src='content/images/logo.png')
+		#navbarSupportedContent.collapse.navbar-collapse
+			ul.navbar-nav.mr-auto.navbar-nav--left
+				li.nav-item.active
+					a.nav-link(href='#')
+						| Vila
+						span.sr-only (current)
+				li.nav-item
+					a.nav-link(href='#') Facilitati
+			ul.navbar-nav.ml-auto.navbar-nav--right
+				li.nav-item
+					a.nav-link(href='#') Rezervari
+				li.nav-item
+					a.nav-link(href='#') Contact
+
+
+
+//- _top_nav.sass | mav_resize.js
+	header.large
+		nav
+			a.logo(href="#"): img(src='content/images/common/logo.png')
+			ul
+				li
+					a(href='#') Villa
+				li
+					a(href='#') Facilitati
+				li
+					a(href='#') Rezervari
+				li
+					a(href='#') Contact

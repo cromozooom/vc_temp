@@ -1,0 +1,50 @@
+.headSection
+  margin-top: 2rem
+  color: $brand-primary
+  p
+    color: $brand-secondary
+
+.card
+  margin-bottom: 3rem
+  .price_badge
+    position: relative
+    p
+      position: absolute
+      z-index: 2
+      color: white
+      height: 3rem
+      line-height: 3rem
+      padding: 0 2rem
+      font-weight: 900
+      left: 50%
+      transform: translate(-50%, -50%)
+      border-radius: 3px
+  h5
+    font-family: $font-family-sans-serif
+    padding: 3rem 2rem 0rem 2rem
+    font-weight: 900
+    text-transform: uppercase
+  a.btn
+    color: black
+    line-height: 3rem
+
+=price_badge($color)
+  .card
+    box-shadow: 0px 10px 20px -10px lighten($color, 30%)
+  .price_badge
+    p
+      background: $color
+  a.branded
+    color: $color
+.ap-01
+  +price_badge( $brand-secondary)
+.ap-02
+  +price_badge( #23e0fb)
+.ap-03
+  +price_badge( $brand-primary)
+
+.cta
+  a
+    flex: 1
+    text-transform: uppercase
+    text-decoration: underline

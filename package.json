@@ -1,0 +1,44 @@
+{
+  "name": "grunt-sitebuilder",
+  "private": false,
+  "devDependencies": {
+    "grunt": ">=1.0.1",
+    "grunt-autoprefixer": ">=3.0.4",
+    "grunt-browser-sync": ">=2.2.0",
+    "grunt-contrib-clean": ">=1.0.0",
+    "grunt-contrib-coffee": ">=1.0.0",
+    "grunt-contrib-copy": ">=1.0.0",
+    "grunt-contrib-jade": ">=1.0.0",
+    "grunt-contrib-jshint": ">=1.0.0",
+    "grunt-contrib-watch": ">=1.0.0",
+    "grunt-notify": ">=0.4.5",
+    "grunt-php": ">=1.5.1",
+    "grunt-sass": ">=1.1.0",
+    "grunt-sync": ">=0.5.2",
+    "load-grunt-tasks": ">=3.5.0",
+    "node-sass": ">=3.5.3"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "description": "A grunt sitebuilder template for quickly getting an environment setup for new sites.",
+  "version": "1.0.0",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://sloyless@github.com/sloyless/grunt-sitebuilder.git"
+  },
+  "keywords": [
+    "jade",
+    "sass",
+    "coffeescript",
+    "autoprefixer",
+    "json"
+  ],
+  "author": "Sean Loyless",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sloyless/grunt-sitebuilder/issues"
+  },
+  "homepage": "http://seanloyless.info/"
+}

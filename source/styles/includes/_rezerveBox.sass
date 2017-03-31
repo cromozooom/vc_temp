@@ -1,0 +1,73 @@
+.container-fluid.rezervaBox
+  position: relative
+  section
+    position: absolute
+    //max-width: 50rem
+    width: 70%
+    max-width: 900px
+    margin: 0 auto
+    background: darken(white, 0%)
+    border-radius: 0 0 5px 5px
+    z-index: 2
+    left: 50%
+    transform: translate(-50%, -50%)
+  .row
+    box-shadow: 0px 10px 20px -10px lighten($brand-secondary, 30%)
+    align-items: center
+    justify-content: space-between
+    &::before
+      content: ""
+      background: linear-gradient(to right, $brand-secondary, $brand-primary, white, $brand-secondary)
+      height: 5px
+      display: block
+      width: 100%
+      border-radius: 5px 5px 0 0
+      transform: translate(0%, -5px)
+  .col-spx
+    padding: 1em 2em
+  h1
+    color: $brand-primary
+  p
+    font-weight: 900
+
+
+.logo--welcome
+  position: relative
+  height: 13rem
+  img
+    position: absolute
+    left: 50%
+    margin: 3rem auto
+    z-index: 4
+    transform: translate(-55%, 0%)
+
+.container-fluid.rezervaBox.rezerveBox--welcome
+  position: relative
+  margin: 0 auto
+  //width: 95vw
+  //height: 100vh
+
+  section
+    transform: translate(-50%, 0%)
+//.rezerva_bar
+//  background: white
+//  width: 100%
+//  margin: -30px auto 0 auto
+//  border-radius: 0 0 5px 5px
+//  position: relative
+//  width: 80%
+//  h1
+//    color: $brand-primary
+//  p
+//    font-weight: 900
+//  &::before
+//    content: ""
+//    background: linear-gradient(to right, $brand-secondary, $brand-primary, white, $brand-secondary)
+//    height: 5px
+//    display: block
+//    width: 100%
+//    border-radius: 5px 5px 0 0
+//    transform: translate(0%, -5px)
+//
+//  .rezerva, .cta
+//    padding: 1rem 2rem
